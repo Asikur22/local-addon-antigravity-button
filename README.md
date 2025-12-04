@@ -14,24 +14,23 @@ A LocalWP addon that adds a button to open the current site's public folder in *
     -   **macOS**: `~/Library/Application Support/Local/addons`
     -   **Windows**: `%AppData%\Local\addons`
     -   **Linux**: `~/.config/Local/addons`
-2.  Navigate to the folder and install dependencies:
-    ```bash
-    npm install
-    ```
-3.  Build the addon:
-    ```bash
-    npm run build
-    ```
-4.  Restart LocalWP.
-5.  Enable the addon from the **Tools > Add-ons** menu if not already enabled.
+2.  Restart LocalWP.
+3.  Enable the addon from the **Tools > Add-ons** menu if not already enabled.
 
 ## Development
 
-To watch for changes and automatically rebuild:
-
-```bash
-npm run watch
-```
+1.  Navigate to the folder and install dependencies:
+    ```bash
+    npm install
+    ```
+2.  Build the addon:
+    ```bash
+    npm run build
+    ```
+3.  To watch for changes and automatically rebuild:
+    ```bash
+    npm run watch
+    ```
 
 ## License
 
@@ -39,4 +38,4 @@ GPL-3.0
 
 ## Author
 
-**Asiqur Rahman**
+**Asiqur Rahman <asiq.webdev@gmail.com>**

@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-# Build Output
-lib/
-
 # System Files
 .DS_Store
 Thumbs.db
